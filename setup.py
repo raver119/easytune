@@ -8,7 +8,7 @@ setup(
   author = 'Vyacheslav Kokorin',
   author_email = 'raver119@gmail.com',
   url = 'https://github.com/raver119/easytune',
-  download_url = 'https://github.com/raver119/easytune/archive/v_01.tar.gz',
+  download_url = 'https://github.com/raver119/easytune/archive/v0.1.tar.gz',
   keywords = ['hyperparameters', 'hyperparams', 'optimization'],
   install_requires=[
           'numpy',
