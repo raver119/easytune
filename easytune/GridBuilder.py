@@ -58,7 +58,7 @@ class GridBuilder:
         if len(keys) == 1:
             for key in keys:
                 for v in self.__parameters[key]:
-                    yield v
+                    yield {key: v}
         else:
             # if we have more than 1 key, we'll need to
             counters = dict()
